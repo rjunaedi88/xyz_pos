@@ -1,0 +1,134 @@
+html{
+	position: relative;
+
+}
+body {	
+    font-family: 'Nunito';
+    background-color: #f9f9f9;
+}
+
+.Navbar {
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+}
+
+
+nav	{
+	width: 400px;
+	height: 50px;
+	border: 0px solid;
+	float: left;
+    margin-left: 65%;
+    margin-top: -70px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+    line-height: 50px;
+    color: #363636;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+nav ul li a {
+	color: #363636;
+    text-decoration: none;
+    
+}
+
+h2 {
+    color: #363636;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
+
+.nav-button {
+    border-radius: 28px;
+    float: left;
+    border: 1px solid #eb414f; 
+    color:#eb414f; 
+    padding: 20px;
+    text-align: center;
+    margin-left: 65%;
+    margin-top: -60px;
+    padding: 10px 31px;
+    font-weight: 700;
+}
+
+.text-banner {
+    width: 40%;
+    margin-left: 10%;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.text-banner p {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #363636;
+}
+
+p{
+    margin-top: 2px;
+}
+
+
+.button-banner {
+    margin-left: -1000px;
+    margin-top: 50px;
+}
+
+.button-daftar { 
+    border-radius: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    background-color: #eb414f; 
+    border: none;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 65%;
+    margin-top: -60px;
+    padding: 10px 50px;
+}
+
+.button-pelajari { 
+    border-radius: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    background-color: #ffffff; 
+    border: 2px solid #eb414f;
+    color: #eb414f;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 65%;
+    margin-top: -60px;
+    padding: 10px 57px;
+}
+
+
+/* image */
+
+
+.Image {
+    text-align: center;
+    margin-top: -25%;
+}
+
+.Image-header {
+    float: right;
+    margin-right: 10%;
+}
+  
+  .Image-logo {
+    height: 50vmin;
+    pointer-events: none;
+  }
